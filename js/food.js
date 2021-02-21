@@ -16,8 +16,12 @@ class Food{
        });
     } 
     deductFood(){
-        this.foodStock=this.foodStock-1
+        this.foodStock-=1;
        }
+
+    addFoods(){
+        this.foodStock+=1;
+    }   
     display(){
     var x=380,y=180;
          
